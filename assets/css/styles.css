@@ -47,6 +47,13 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 0.2em;
 }
 
+/* Reduce letter spacing on mobile to prevent text wrapping */
+@media (max-width: 640px) {
+  .display {
+    letter-spacing: 0em;
+  }
+}
+
 ::selection {
   background: #f4f4f4;
   color: #0b0b0b;
